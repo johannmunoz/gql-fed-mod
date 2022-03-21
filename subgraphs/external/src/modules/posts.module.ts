@@ -9,6 +9,11 @@ interface Post {
 const posts: Post[] = [];
 
 const typeDefs = gql`
+  extend type Query {
+    posts: [Post]
+    post: Post
+  }
+
   type Post {
     id: ID!
     author: String!

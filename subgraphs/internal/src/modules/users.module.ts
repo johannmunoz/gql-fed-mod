@@ -8,6 +8,11 @@ interface User {
 const users: User[] = [];
 
 const typeDefs = gql`
+  type Query {
+    users: [User]
+    user: User
+  }
+
   type User {
     id: ID!
     email: String!

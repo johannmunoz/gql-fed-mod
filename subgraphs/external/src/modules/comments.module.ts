@@ -9,6 +9,11 @@ interface Comment {
 const comments: Comment[] = [];
 
 const typeDefs = gql`
+  type Query {
+    comments: [Comment]
+    comment: Comment
+  }
+
   type Comment {
     id: ID!
     author: String!

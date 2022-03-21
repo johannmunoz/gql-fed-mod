@@ -5,6 +5,14 @@
   "main": "index.js",
   "author": "Johann Munoz",
   "license": "MIT",
+  "scripts": {
+    "start": "node dist/index",
+    "start:internal": "node dist/subgraphs/internal/src/index.js",
+    "start:external": "node dist/subgraphs/external/src/index.js",
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
   "devDependencies": {
     "typescript": "^4.6.2"
   },

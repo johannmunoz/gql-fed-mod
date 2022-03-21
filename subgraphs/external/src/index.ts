@@ -11,6 +11,6 @@ const schema = application.createSchemaForApollo();
 
 const server = new ApolloServer({ schema });
 
-server.listen().then(({ url }) => {
+server.listen(4001).then(({ url }) => {
   console.log(`🚀  External Server ready at ${url}`);
 });
