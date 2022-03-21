@@ -1,0 +1,15 @@
+{
+  "name": "gql-fed-mod",
+  "version": "1.0.0",
+  "description": "Apollo gql project using apollo federation and gql-modules",
+  "main": "index.js",
+  "author": "Johann Munoz",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^0.49.0",
+    "apollo-server": "^3.6.4"
+  }
+}
