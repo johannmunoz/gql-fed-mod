@@ -1,7 +1,7 @@
 {
   "name": "gql-fed-mod",
   "version": "1.0.0",
-  "description": "Apollo gql project using apollo federation and gql-modules",
+  "description": "Graphql project using apollo federation and gql-modules",
   "main": "index.js",
   "author": "Johann Munoz",
   "license": "MIT",
